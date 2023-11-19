@@ -1,0 +1,56 @@
+
+.contentContainer {
+    display: none;
+}
+
+ #Dashboard.show ,
+ #carouselExampleIndicators.show{
+    display: block;
+}
+
+/* alert info */
+.alertInfo {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.toastAlert {
+    background: blue;
+    padding: 10px;
+    position: relative;
+    transition: bottom 0.4s ease-in-out;
+    color: white;
+
+}
+
+/* animation day-night toggle */
+
+.roundedbutton {
+    border-radius: 20px;
+}
+
+.fa-moon {
+    color: violet;
+}
+
+#themeBody.day {
+    background-color: #ffffff; 
+    color: #000000; 
+}
+
+#themeBody.night {
+    background-color: #212529; 
+    color: #ffffff; 
+}
+
+/* Additional styles for Bootstrap components in night mode */
+#themeBody.night .bg-light {
+    
+}
+
+#themeBody.night .text-light {
+    /* color: #ffffff; */
+}
